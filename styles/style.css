@@ -50,33 +50,49 @@ a:hover{
 }
 
 .slotMachine .slot{
-  height:100px;
+  height:120px;
   background-position-x: 55%;
   background-repeat: no-repeat;
 }
 
+.slot0 {
+  background-image: url("../img/0.png");
+}
+
 .slot1 {
-  background-image: url("../img/slot1.png");
+  background-image: url("../img/1.png");
 }
 
 .slot2 {
-  background-image: url("../img/slot2.png");
+  background-image: url("../img/2.png");
 }
 
 .slot3 {
-  background-image: url("../img/slot3.png");
+  background-image: url("../img/3.png");
 }
 
 .slot4 {
-  background-image: url("../img/slot4.png");
+  background-image: url("../img/4.png");
 }
 
 .slot5 {
-  background-image: url("../img/slot5.png");
+  background-image: url("../img/5.png");
 }
 
 .slot6 {
-  background-image: url("../img/slot6.png");
+  background-image: url("../img/6.png");
+}
+
+.slot7 {
+  background-image: url("../img/7.png");
+}
+
+.slot8 {
+  background-image: url("../img/8.png");
+}
+
+.slot9 {
+  background-image: url("../img/9.png");
 }
 
 /*
@@ -269,7 +285,7 @@ header a {
  * Casino
  */
 #casino {
-  border-top: 20px dashed rgb(180, 75, 119);
+  border-top: 10px dashed rgb(180, 75, 119);
   border-bottom: 10px solid #A48E4E;
   background-color: rgb(240, 150, 150);
 }
@@ -282,21 +298,21 @@ header a {
 }
 
 #casino .content > div {
-  padding-top: 165px;
+  padding-top: 100px;
   width: 300px;
   margin: 0 auto;
   transform: translateX(30px);
 }
 
 .machineContainer{
-  padding: 5px 1px 5px 1px;
+  padding: 1px 1px 5px 1px;
   height: 135px;
 }
 
 .slotMachine{
   width: 36.333333%;
   border: 5px solid #CF5178;
-  height: 100px;
+  height: 130px;
   display: inline-block;
 }
 

@@ -40,8 +40,8 @@ body {
 }
 
 .slotMachine .slot{
-  height:120px;
-  background-position-x: 55%;
+  height:200px;
+  background-position: 55% center;
   background-repeat: no-repeat;
 }
 
@@ -111,15 +111,16 @@ body {
 }
 
 #casino .content:nth-child(1) {
+  margin-top: -150px;
   text-align: center;
-  background: url('../img/machine.png') no-repeat;
+  background: url('../img/machine1.png') no-repeat;
   background-position-x: calc(50% + 30px);
   min-height: 580px;
 }
 
 #casino .content > div {
-  padding-top: 150px;
-  width: 300px;
+  padding-top: 280px;
+  width: 500px;
   margin: 0 auto;
   transform: translateX(30px);
 }
@@ -130,10 +131,11 @@ body {
 }
 
 .slotMachine{
-  width: 36.333333%;
+  width: 150px;
   border: 5px solid #CF5178;
-  height: 130px;
+  height: 200px;
   display: inline-block;
+  background-color: white;
 }
 
 #casino .btn-group {

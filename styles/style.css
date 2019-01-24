@@ -113,14 +113,14 @@ body {
 #casino .content:nth-child(1) {
   margin-top: -150px;
   text-align: center;
-  background: url('../img/machine1.png') no-repeat;
+  background: url('../img/machine3.png') no-repeat;
   background-position-x: calc(50% + 30px);
   min-height: 580px;
 }
 
 #casino .content > div {
-  padding-top: 280px;
-  width: 500px;
+  padding-top: 293px;
+  width: 800px;
   margin: 0 auto;
   transform: translateX(30px);
 }
@@ -131,7 +131,7 @@ body {
 }
 
 .slotMachine{
-  width: 150px;
+  width: 151px;
   border: 5px solid #CF5178;
   height: 200px;
   display: inline-block;

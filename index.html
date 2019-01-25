@@ -122,6 +122,8 @@
     </div>
     <script id="codeScript5">
       let count = 0;
+      let result = (Math.floor(Math.random() * 999999)).toString();
+
       const btnShuffle = document.querySelector('#casinoShuffle');
       const btnStop = document.querySelector('#casinoStop');
       const casino1 = document.querySelector('#casino1');
@@ -160,6 +162,7 @@
           <script id="codeScript6">
       btnShuffle.addEventListener('click', () => {
         count = 6;
+        result = (Math.floor(Math.random() * 999999)).toString();
         mCasino1.shuffle(9999);
         mCasino2.shuffle(9999);
         mCasino3.shuffle(9999);
@@ -171,22 +174,22 @@
       btnStop.addEventListener('click', () => {
         switch(count) {
           case 6:
-            mCasino1.stop();
+            mCasino1.stop(result[count]);
             break;
           case 5:
-            mCasino2.stop();
+            mCasino2.stop(result[count]);
             break;
           case 4:
-            mCasino3.stop();
+            mCasino3.stop(result[count]);
             break;
           case 3:
-            mCasino4.stop();
+            mCasino4.stop(result[count]);
             break;
           case 2:
-            mCasino5.stop();
+            mCasino5.stop(result[count]);
             break;
           case 1:
-            mCasino6.stop();
+            mCasino6.stop(result[count]);
             break;
         }
         count--;

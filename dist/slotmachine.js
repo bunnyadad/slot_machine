@@ -275,7 +275,7 @@ var SlotMachine = function () {
     }
   }, {
     key: 'stop',
-    value: function stop(onStop) {
+    value: function stop(active, onStop) {
       var _this4 = this;
 
       if (!this.running || this.stopping) {
@@ -287,7 +287,8 @@ var SlotMachine = function () {
 
       if (!Number.isInteger(this.nextActive)) {
         // Get random or custom element
-        this.nextActive = this.custom;
+
+        this.nextActive = active;
       }
 
       // Check direction to prevent jumping
